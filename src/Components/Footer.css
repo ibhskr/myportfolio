@@ -1,0 +1,33 @@
+.symbol {
+  display: inline;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  flex-wrap: wrap;
+  background-color: rgba(11, 11, 51, 0.39);
+}
+
+.contact h2,
+.socialmedia h2,
+.quickacces h2 {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 4px solid orangered;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    display: block;
+  }
+  .footer h2 {
+    display: inline;
+  }
+  .contact,
+  .socialmedia,
+  .quickacces {
+    padding: 10px;
+  }
+}

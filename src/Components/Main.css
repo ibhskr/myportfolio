@@ -1,0 +1,22 @@
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    padding: 10% 10% 0% 10%;
+}
+.main-1{
+    font-size: 25px;
+    display: block;
+    margin: auto;
+}
+.main-2{
+    display: block;
+    margin: auto;
+}
+.main-2 img{
+    min-width: 100px;
+    max-width: 300px;
+    
+}

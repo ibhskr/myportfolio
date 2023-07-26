@@ -1,0 +1,41 @@
+
+.skill{
+    margin: 10%;
+    
+}
+
+.skill h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+}
+.skill ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.skill ul li {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 2px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill img{
+    height: 70%;
+}
+
+@media screen and (max-width:600px) {
+    .skill ul li{
+        width: 70px;
+        height: 70px;
+    }
+}
